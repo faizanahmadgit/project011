@@ -5,10 +5,10 @@ import Room from './Room';
 import ValueContext from './ValueContext';
 
 function App() {
- // let [numb, setNumb]=useState(45);
+  let val =useState(45);
   return (
     
-  <ValueContext.Provider value={91}>
+  <ValueContext.Provider value={val}>
     <div>
       Hello world
       <Room></Room>
